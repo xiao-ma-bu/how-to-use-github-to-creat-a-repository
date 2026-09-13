@@ -1,0 +1,5 @@
+collect_xany_exports.py:把 X-AnyLabeling 每次导出的零散结果，整理成一个可以训练 VideoMAE 的统一数据集
+split_by_player.py:对球员数据集进行分类（训练集，验证集，测试集）
+check_videos.py：训练前排除损坏视频
+train_videomae.py：VideoMAE 投篮动作三分类训练程序
+predict_video.py：单个视频推理程序
